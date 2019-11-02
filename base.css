@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* displays the navigation bar horizontally with a 20px space between the options. overrides the html format */
+nav ul li {
+display: inline; 
+margin-right: 20px;
+border: black;
+position: relative;
+}
+
+@font-face {
+font-family: carousel;
+src: url(carousel.ttf);
+}
+
+h1, h2 {
+font-family: carousel;
+}
+
+/* centers all page titles */
+h1{text-align: center;}
+
+/* changes font type for headers. 
+h2 {font-family: "Book Antiqua", serif;} */
+
+/* all .html links in the html page will not be underlined. overrides the default of links being underlined */
+a[href*=".html"] {
+text-decoration: none;
+}
+
+a:hover[href="home.html"] {
+color: red; 
+text-decoration: underline;
+}
+
+a:hover[href="themes.html"] {
+color: green;
+text-decoration: underline;
+}
+
+a:hover[href="socialContext.html"] {
+color: #996633;
+text-decoration: underline;
+}
+
+/* moves footer notes lower on the page */
+footer[role="contentinfo"] {
+position: absolute; 
+bottom: 5%;
+left: 1%;
+}
+
+/* changes font type and size of paragraphs */
+.themes p {font-family: "Palatino Linotype", Palatino, serif; font-size: 23px;}
+.about p {font-family: "Palatino Linotype", Palatino, serif; font-size: 23px;}
+.socialContext p {font-family: "Palatino Linotype", Palatino, serif; font-size: 23px;}
+
+#wrapper {
+min-height: 100%;
+}
+
+#header {
+padding: 10%;
+}
+
+body {
+background: #FBF1E9;
+width: 89%;
+}
+
+/* puts a menu on right hand of screen */
+aside {
+position: absolute;
+right: 5px; 
+width: 10%;
+border-radius: 20px;
+border: solid 5px black; 
+background: #EBE1D7;
+top: 5px;
+bottom: 5px;
+box-shadow: 2px 2px 4px 10px #A7A7B0 inset;
+}
+
+
+img {
+float: left;
+padding: 5px;
+}
+
+table {
+    border-collapse: collapse;	
+	width: 70%;
+	height: 60%;
+}
+
+td{
+	border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+

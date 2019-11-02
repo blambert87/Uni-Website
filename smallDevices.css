@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 320px and up */
+@media only screen and (min-device-width: 320px) {
+	img{
+		float: left;
+	}
+	
+	footer[role="contentinfo"] {
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+	}
+	
+	aside {
+	width: 0px;
+	height: 0px;
+	}
+	
+	nav ul li {
+	display: inline; 
+	margin-right: 5px;
+	border: black;
+	position: relative;	
+	}	
+	
+	#header {
+	padding: 20px;
+	}
+	
+	body {
+	background: #FBF1E9;
+	position: relative;
+	}		
+}
